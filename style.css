@@ -33,16 +33,17 @@ body {
     font-size: 1.1em;
 }
 .sidebar-toggle {
-    position: static;
-    margin: -16px 0 0 -16px; /* Move button even further up and to the left */
-    background: #ECE7DA; /* Match page background */
-    color: #222326;      /* Match page font color */
-    border: none;
-    border-radius: 6px;
-    padding: 10px 14px;
-    font-size: 1.3em;
-    cursor: pointer;
+    position: fixed;
+    top: 16px;
+    left: 16px;
     z-index: 300;
+    background: #16171a;
+    color: #ECE7DA;
+    border: none;
+    font-size: 2em;
+    padding: 4px 12px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 #home h1 {
